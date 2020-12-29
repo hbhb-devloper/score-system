@@ -1,0 +1,70 @@
+---------------------------------------------------------------
+[2020-04-20T23:05:20+08:00] 49.235.205.223 POST pingshen.hbhb.vip/api/users/wxlogin
+[运行时间：0.145417s] [吞吐率：6.88req/s] [内存消耗：3,775.59kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-wx-cascade-timeout' => '10000',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5 mpcrawler',
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'host' => 'pingshen.hbhb.vip',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081s3i1Y0uMUDW1Qmd1Y0CRd1Y0s3i1k',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008831s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007628s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5RbkLRUtqp0iQGk6GDQFsKQ' LIMIT 1 [ RunTime:0.005967s ]
+---------------------------------------------------------------
+[2020-04-20T23:05:20+08:00] 101.91.60.112 POST pingshen.hbhb.vip/api/users/reg
+[运行时间：0.142652s] [吞吐率：7.01req/s] [内存消耗：3,555.32kb] [文件加载：94]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-wx-cascade-timeout' => '10000',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5 mpcrawler',
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'host' => 'pingshen.hbhb.vip',
+  'content-length' => '221',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'nickName' => '黄智荣',
+  'gender' => '0',
+  'language' => 'zh_CN',
+  'city' => '',
+  'province' => '',
+  'country' => '',
+  'avatarUrl' => 'https://wx.qlogo.cn/mmhead/TDRn0En2HZ1IdAklDISTqRo6o2pia17lyMpNoIECQVxQ/132',
+  'openid' => 'oqBTY5RbkLRUtqp0iQGk6GDQFsKQ',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: nickname[/www/wwwroot/pingshen/application/api/controller/Users.php:49]
+[ error ] [8]未定义数组索引: avatarurl[/www/wwwroot/pingshen/application/api/controller/Users.php:50]
+[ error ] [8]未定义数组索引: u[/www/wwwroot/pingshen/application/api/controller/Users.php:72]
+[ error ] [8192]Non-static method app\api\model\Token::create_unique() should not be called statically[/www/wwwroot/pingshen/application/api/model/Token.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008917s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007806s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5RbkLRUtqp0iQGk6GDQFsKQ' LIMIT 1 [ RunTime:0.006075s ]
+[ sql ] [ SQL ] INSERT INTO `weixin_user` (`gender` , `language` , `city` , `province` , `country` , `openid` , `nickname` , `avatarurl`) VALUES ('0' , 'zh_CN' , '' , '' , '' , 'oqBTY5RbkLRUtqp0iQGk6GDQFsKQ' , '黄智荣' , 'https://wx.qlogo.cn/mmhead/TDRn0En2HZ1IdAklDISTqRo6o2pia17lyMpNoIECQVxQ/132') [ RunTime:0.005985s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5RbkLRUtqp0iQGk6GDQFsKQ' LIMIT 1 [ RunTime:0.006023s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007464s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `openid` = 'oqBTY5RbkLRUtqp0iQGk6GDQFsKQ' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.006152s ]
+[ sql ] [ SQL ] INSERT INTO `users` (`city` , `province` , `country` , `openid` , `nickname` , `headimg` , `sex` , `parent_id`) VALUES ('' , '' , '' , 'oqBTY5RbkLRUtqp0iQGk6GDQFsKQ' , '黄智荣' , 'https://wx.qlogo.cn/mmhead/TDRn0En2HZ1IdAklDISTqRo6o2pia17lyMpNoIECQVxQ/132' , 0 , 0) [ RunTime:0.005941s ]
+[ sql ] [ SQL ] UPDATE `weixin_user`  SET `userid` = 59  WHERE  `openid` = 'oqBTY5RbkLRUtqp0iQGk6GDQFsKQ' [ RunTime:0.006146s ]
+[ sql ] [ SQL ] UPDATE `users`  SET `sex` = 0 , `country` = '' , `province` = '' , `city` = ''  WHERE  `id` = 59 [ RunTime:0.005931s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.006067s ]

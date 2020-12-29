@@ -1,0 +1,1846 @@
+---------------------------------------------------------------
+[2020-04-02T08:50:01+08:00] 101.133.137.131 GET pingshen.hbhb.vip/
+[运行时间：0.020853s] [吞吐率：47.95req/s] [内存消耗：2,225.81kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:01+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.020908s] [吞吐率：47.83req/s] [内存消耗：2,211.40kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-04-02T08:50:01+08:00] 101.133.137.131 GET pingshen.hbhb.vip/explicit_not_exist_path
+[运行时间：0.019695s] [吞吐率：50.77req/s] [内存消耗：2,118.08kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:01+08:00] 101.133.137.131 GET pingshen.hbhb.vip/index.html
+[运行时间：0.021628s] [吞吐率：46.24req/s] [内存消耗：2,118.11kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:01+08:00] 101.133.137.131 GET pingshen.hbhb.vip/index.php
+[运行时间：0.020413s] [吞吐率：48.99req/s] [内存消耗：2,226.30kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:01+08:00] 101.133.137.131 GET pingshen.hbhb.vip/index.php/admin/login/index.html
+[运行时间：0.019970s] [吞吐率：50.08req/s] [内存消耗：2,118.27kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:01+08:00] 101.133.137.131 GET pingshen.hbhb.vip/index.jsp
+[运行时间：0.019904s] [吞吐率：50.24req/s] [内存消耗：2,118.07kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:01+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/
+[运行时间：0.020529s] [吞吐率：48.71req/s] [内存消耗：2,123.87kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:01+08:00] 101.133.137.131 GET pingshen.hbhb.vip/wp-login.php
+[运行时间：0.020071s] [吞吐率：49.82req/s] [内存消耗：2,118.07kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:01+08:00] 101.133.137.131 GET pingshen.hbhb.vip/readme.html
+[运行时间：0.019736s] [吞吐率：50.67req/s] [内存消耗：2,118.11kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:01+08:00] 101.133.137.131 GET pingshen.hbhb.vip/license.txt
+[运行时间：0.019898s] [吞吐率：50.26req/s] [内存消耗：2,118.07kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/wp-includes/js/wplink.js
+[运行时间：0.019932s] [吞吐率：50.17req/s] [内存消耗：2,118.20kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/wp-admin/js/customize-controls.js
+[运行时间：0.019867s] [吞吐率：50.33req/s] [内存消耗：2,118.22kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/wp-admin/js/nav-menu.js
+[运行时间：0.019979s] [吞吐率：50.05req/s] [内存消耗：2,118.19kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/wp-includes/js/plupload/handlers.js
+[运行时间：0.019990s] [吞吐率：50.03req/s] [内存消耗：2,118.20kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/wp-includes/js/tinymce/wp-tinymce.js.gz
+[运行时间：0.019767s] [吞吐率：50.59req/s] [内存消耗：2,118.19kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/index.php/explicit_not_exist_path
+[运行时间：0.020067s] [吞吐率：49.83req/s] [内存消耗：2,118.23kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/static/.gitignore
+[运行时间：0.015177s] [吞吐率：65.89req/s] [内存消耗：1,661.89kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/4e5e5d7364f443e28fbf0d3ae744a59a
+[运行时间：0.019706s] [吞吐率：50.75req/s] [内存消耗：2,118.09kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/?c=4e5e5d7364f443e28fbf0d3ae744a59a
+[运行时间：0.020164s] [吞吐率：49.59req/s] [内存消耗：2,227.14kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'c' => '4e5e5d7364f443e28fbf0d3ae744a59a',
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/favicon.ico
+[运行时间：0.020691s] [吞吐率：48.33req/s] [内存消耗：2,171.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/explicit_not_exist_path
+[运行时间：0.020587s] [吞吐率：48.57req/s] [内存消耗：2,171.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/wp-login.php
+[运行时间：0.020615s] [吞吐率：48.51req/s] [内存消耗：2,171.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/readme.html
+[运行时间：0.020361s] [吞吐率：49.11req/s] [内存消耗：2,171.49kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/license.txt
+[运行时间：0.020361s] [吞吐率：49.11req/s] [内存消耗：2,171.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/wp-includes/js/wplink.js
+[运行时间：0.020686s] [吞吐率：48.34req/s] [内存消耗：2,172.21kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'wplink.js',
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/wp-admin/js/customize-controls.js
+[运行时间：0.020460s] [吞吐率：48.88req/s] [内存消耗：2,172.38kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'customize-controls.js',
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/wp-admin/js/nav-menu.js
+[运行时间：0.020226s] [吞吐率：49.44req/s] [内存消耗：2,172.34kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'nav-menu.js',
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:02+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/wp-includes/js/plupload/handlers.js
+[运行时间：0.020638s] [吞吐率：48.45req/s] [内存消耗：2,172.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'plupload',
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:03+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/wp-includes/js/tinymce/wp-tinymce.js.gz
+[运行时间：0.020391s] [吞吐率：49.04req/s] [内存消耗：2,172.22kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'tinymce',
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:03+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/robots.txt
+[运行时间：0.020407s] [吞吐率：49.00req/s] [内存消耗：2,171.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:03+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/index.php/explicit_not_exist_path
+[运行时间：0.020387s] [吞吐率：49.05req/s] [内存消耗：2,171.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:03+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/static/.gitignore
+[运行时间：0.020393s] [吞吐率：49.04req/s] [内存消耗：2,171.44kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:03+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/4e5e5d7364f443e28fbf0d3ae744a59a
+[运行时间：0.020207s] [吞吐率：49.49req/s] [内存消耗：2,171.52kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:03+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/index.html?c=4e5e5d7364f443e28fbf0d3ae744a59a
+[运行时间：0.020866s] [吞吐率：47.93req/s] [内存消耗：2,212.13kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'c' => '4e5e5d7364f443e28fbf0d3ae744a59a',
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-04-02T08:50:03+08:00] 101.133.137.131 GET pingshen.hbhb.vip/admin/login/index.jsp
+[运行时间：0.020483s] [吞吐率：48.82req/s] [内存消耗：2,171.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:03+08:00] 101.133.137.131 GET pingshen.hbhb.vip/wcm/
+[运行时间：0.020657s] [吞吐率：48.41req/s] [内存消耗：2,118.16kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:03+08:00] 101.133.137.131 GET pingshen.hbhb.vip/phpMyAdmin/
+[运行时间：0.019655s] [吞吐率：50.88req/s] [内存消耗：2,118.17kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T08:50:03+08:00] 101.133.137.131 GET pingshen.hbhb.vip/phpmyadmin/
+[运行时间：0.019723s] [吞吐率：50.70req/s] [内存消耗：2,118.17kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=akv6tu1t4fkqknbs21qkluj35l',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:26+08:00] 47.116.105.229 GET pingshen.hbhb.vip/
+[运行时间：0.020662s] [吞吐率：48.40req/s] [内存消耗：2,225.81kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:26+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.020696s] [吞吐率：48.32req/s] [内存消耗：2,211.40kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-04-02T10:43:26+08:00] 47.116.105.229 GET pingshen.hbhb.vip/explicit_not_exist_path
+[运行时间：0.019529s] [吞吐率：51.21req/s] [内存消耗：2,118.08kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:26+08:00] 47.116.105.229 GET pingshen.hbhb.vip/index.html
+[运行时间：0.021108s] [吞吐率：47.38req/s] [内存消耗：2,118.11kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:26+08:00] 47.116.105.229 GET pingshen.hbhb.vip/index.php
+[运行时间：0.020402s] [吞吐率：49.01req/s] [内存消耗：2,226.30kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:26+08:00] 47.116.105.229 GET pingshen.hbhb.vip/index.php/admin/login/index.html
+[运行时间：0.019855s] [吞吐率：50.37req/s] [内存消耗：2,118.27kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:26+08:00] 47.116.105.229 GET pingshen.hbhb.vip/index.jsp
+[运行时间：0.020587s] [吞吐率：48.57req/s] [内存消耗：2,118.07kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:26+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/
+[运行时间：0.020922s] [吞吐率：47.80req/s] [内存消耗：2,123.87kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:27+08:00] 47.116.105.229 GET pingshen.hbhb.vip/wp-login.php
+[运行时间：0.020732s] [吞吐率：48.23req/s] [内存消耗：2,118.07kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:27+08:00] 47.116.105.229 GET pingshen.hbhb.vip/readme.html
+[运行时间：0.019711s] [吞吐率：50.73req/s] [内存消耗：2,118.11kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:27+08:00] 47.116.105.229 GET pingshen.hbhb.vip/license.txt
+[运行时间：0.020076s] [吞吐率：49.81req/s] [内存消耗：2,118.07kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:27+08:00] 47.116.105.229 GET pingshen.hbhb.vip/wp-includes/js/wplink.js
+[运行时间：0.019624s] [吞吐率：50.96req/s] [内存消耗：2,118.20kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:27+08:00] 47.116.105.229 GET pingshen.hbhb.vip/wp-admin/js/customize-controls.js
+[运行时间：0.019688s] [吞吐率：50.79req/s] [内存消耗：2,118.22kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:27+08:00] 47.116.105.229 GET pingshen.hbhb.vip/wp-admin/js/nav-menu.js
+[运行时间：0.019662s] [吞吐率：50.86req/s] [内存消耗：2,118.19kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:27+08:00] 47.116.105.229 GET pingshen.hbhb.vip/wp-includes/js/plupload/handlers.js
+[运行时间：0.019626s] [吞吐率：50.95req/s] [内存消耗：2,118.20kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:27+08:00] 47.116.105.229 GET pingshen.hbhb.vip/wp-includes/js/tinymce/wp-tinymce.js.gz
+[运行时间：0.019654s] [吞吐率：50.88req/s] [内存消耗：2,118.19kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:27+08:00] 47.116.105.229 GET pingshen.hbhb.vip/index.php/explicit_not_exist_path
+[运行时间：0.019909s] [吞吐率：50.23req/s] [内存消耗：2,118.23kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:27+08:00] 47.116.105.229 GET pingshen.hbhb.vip/static/.gitignore
+[运行时间：0.015021s] [吞吐率：66.57req/s] [内存消耗：1,661.89kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2020-04-02T10:43:27+08:00] 47.116.105.229 GET pingshen.hbhb.vip/4e5e5d7364f443e28fbf0d3ae744a59a
+[运行时间：0.019434s] [吞吐率：51.46req/s] [内存消耗：2,118.09kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:27+08:00] 47.116.105.229 GET pingshen.hbhb.vip/?c=4e5e5d7364f443e28fbf0d3ae744a59a
+[运行时间：0.020161s] [吞吐率：49.60req/s] [内存消耗：2,227.14kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'c' => '4e5e5d7364f443e28fbf0d3ae744a59a',
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/favicon.ico
+[运行时间：0.021372s] [吞吐率：46.79req/s] [内存消耗：2,171.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/explicit_not_exist_path
+[运行时间：0.021642s] [吞吐率：46.21req/s] [内存消耗：2,171.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/wp-login.php
+[运行时间：0.020590s] [吞吐率：48.57req/s] [内存消耗：2,171.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/readme.html
+[运行时间：0.020426s] [吞吐率：48.96req/s] [内存消耗：2,171.49kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/license.txt
+[运行时间：0.020651s] [吞吐率：48.42req/s] [内存消耗：2,171.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/wp-includes/js/wplink.js
+[运行时间：0.020380s] [吞吐率：49.07req/s] [内存消耗：2,172.21kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'wplink.js',
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/wp-admin/js/customize-controls.js
+[运行时间：0.020641s] [吞吐率：48.45req/s] [内存消耗：2,172.38kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'customize-controls.js',
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/wp-admin/js/nav-menu.js
+[运行时间：0.020792s] [吞吐率：48.10req/s] [内存消耗：2,172.34kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'nav-menu.js',
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/wp-includes/js/plupload/handlers.js
+[运行时间：0.020462s] [吞吐率：48.87req/s] [内存消耗：2,172.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'plupload',
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/wp-includes/js/tinymce/wp-tinymce.js.gz
+[运行时间：0.020860s] [吞吐率：47.94req/s] [内存消耗：2,172.22kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'tinymce',
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/robots.txt
+[运行时间：0.020810s] [吞吐率：48.05req/s] [内存消耗：2,171.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/index.php/explicit_not_exist_path
+[运行时间：0.020998s] [吞吐率：47.62req/s] [内存消耗：2,171.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/static/.gitignore
+[运行时间：0.020597s] [吞吐率：48.55req/s] [内存消耗：2,171.44kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/4e5e5d7364f443e28fbf0d3ae744a59a
+[运行时间：0.020327s] [吞吐率：49.20req/s] [内存消耗：2,171.52kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/index.html?c=4e5e5d7364f443e28fbf0d3ae744a59a
+[运行时间：0.020742s] [吞吐率：48.21req/s] [内存消耗：2,212.13kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'c' => '4e5e5d7364f443e28fbf0d3ae744a59a',
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/admin/login/index.jsp
+[运行时间：0.020626s] [吞吐率：48.48req/s] [内存消耗：2,171.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/wcm/
+[运行时间：0.020842s] [吞吐率：47.98req/s] [内存消耗：2,118.16kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/phpMyAdmin/
+[运行时间：0.019842s] [吞吐率：50.40req/s] [内存消耗：2,118.17kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T10:43:28+08:00] 47.116.105.229 GET pingshen.hbhb.vip/phpmyadmin/
+[运行时间：0.019837s] [吞吐率：50.41req/s] [内存消耗：2,118.17kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=hp38avumqqcnt1d1t9flq7fg7d',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T14:58:58+08:00] 125.120.210.140 GET pingshen.hbhb.vip/admin/index/index.html
+[运行时间：0.054807s] [吞吐率：18.25req/s] [内存消耗：3,142.76kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; __guid=45053733.3000308160523766000.1581945795151.1138; PHPSESSID=c8bqogicahjrrktoqkkj4sqi8v',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/index/index.html [ array (
+  0 => 'menus',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009236s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.007768s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  ( menustatus=1 ) ORDER BY `sort` [ RunTime:0.006270s ]
+---------------------------------------------------------------
+[2020-04-02T14:58:58+08:00] 125.120.210.140 GET pingshen.hbhb.vip/uploads/20180625/f266169c2956429d9aaea6cf6f1e51cb.jpg
+[运行时间：0.016181s] [吞吐率：61.80req/s] [内存消耗：1,661.92kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2020-04-02T14:58:59+08:00] 125.120.210.140 GET pingshen.hbhb.vip/admin/index/main.html
+[运行时间：0.045034s] [吞吐率：22.21req/s] [内存消耗：3,098.68kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; __guid=45053733.3000308160523766000.1581945795151.1138; PHPSESSID=c8bqogicahjrrktoqkkj4sqi8v; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://pingshen.hbhb.vip/admin/index/index.html',
+  'sec-fetch-mode' => 'nested-navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/index/main.html [ array (
+  0 => 'config',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009515s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.006244s ]
+[ error ] [8]未定义数组索引: HTTP_CLIENT_IP[/www/wwwroot/pingshen/application/common.php:227]
+[ error ] [8]未定义数组索引: HTTP_X_FORWARDED_FOR[/www/wwwroot/pingshen/application/common.php:229]
+---------------------------------------------------------------
+[2020-04-02T14:59:02+08:00] 125.120.210.140 GET pingshen.hbhb.vip/admin/users/userlist.html
+[运行时间：0.059193s] [吞吐率：16.89req/s] [内存消耗：2,224.48kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; __guid=45053733.3000308160523766000.1581945795151.1138; PHPSESSID=c8bqogicahjrrktoqkkj4sqi8v; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://pingshen.hbhb.vip/admin/index/index.html',
+  'sec-fetch-mode' => 'nested-navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/users/user_list.html [ array (
+) ]
+---------------------------------------------------------------
+[2020-04-02T14:59:03+08:00] 125.120.210.140 POST pingshen.hbhb.vip/admin/users/userlist.html
+[运行时间：0.052486s] [吞吐率：19.05req/s] [内存消耗：3,136.03kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; __guid=45053733.3000308160523766000.1581945795151.1138; PHPSESSID=c8bqogicahjrrktoqkkj4sqi8v; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://pingshen.hbhb.vip/admin/users/userlist.html',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://pingshen.hbhb.vip',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009749s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.008196s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  ( `nickname` LIKE '%%' OR `email` LIKE '%%' OR `mobile` LIKE '%%' ) [ RunTime:0.006754s ]
+---------------------------------------------------------------
+[2020-04-02T14:59:05+08:00] 125.120.210.140 POST pingshen.hbhb.vip/admin/users/userstate.html
+[运行时间：0.054625s] [吞吐率：18.31req/s] [内存消耗：3,075.57kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; __guid=45053733.3000308160523766000.1581945795151.1138; PHPSESSID=c8bqogicahjrrktoqkkj4sqi8v; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://pingshen.hbhb.vip/admin/users/userlist.html',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://pingshen.hbhb.vip',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'id' => '54',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009326s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007979s ]
+[ sql ] [ SQL ] UPDATE `users`  SET `status` = 1  WHERE  ( id=54 ) [ RunTime:0.009647s ]
+---------------------------------------------------------------
+[2020-04-02T14:59:06+08:00] 125.120.210.140 POST pingshen.hbhb.vip/admin/users/userlist.html
+[运行时间：0.051721s] [吞吐率：19.33req/s] [内存消耗：3,136.03kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; __guid=45053733.3000308160523766000.1581945795151.1138; PHPSESSID=c8bqogicahjrrktoqkkj4sqi8v; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://pingshen.hbhb.vip/admin/users/userlist.html',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'https://pingshen.hbhb.vip',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009552s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.008285s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  ( `nickname` LIKE '%%' OR `email` LIKE '%%' OR `mobile` LIKE '%%' ) [ RunTime:0.006735s ]
+---------------------------------------------------------------
+[2020-04-02T15:44:00+08:00] 139.224.12.188 GET pingshen.hbhb.vip/
+[运行时间：0.020911s] [吞吐率：47.82req/s] [内存消耗：2,225.12kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T15:44:00+08:00] 139.224.12.188 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.021199s] [吞吐率：47.17req/s] [内存消耗：2,210.23kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-04-02T15:44:01+08:00] 139.224.12.188 GET pingshen.hbhb.vip/admin/index/index.html
+[运行时间：0.020795s] [吞吐率：48.09req/s] [内存消耗：2,225.32kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T15:44:01+08:00] 139.224.12.188 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.020878s] [吞吐率：47.90req/s] [内存消耗：2,210.23kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-04-02T19:00:52+08:00] 47.100.7.25 GET pingshen.hbhb.vip/
+[运行时间：0.020580s] [吞吐率：48.59req/s] [内存消耗：2,225.12kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T19:00:52+08:00] 47.100.7.25 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.020877s] [吞吐率：47.90req/s] [内存消耗：2,210.23kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-04-02T19:00:53+08:00] 47.100.7.25 GET pingshen.hbhb.vip/admin/index/index.html
+[运行时间：0.021364s] [吞吐率：46.81req/s] [内存消耗：2,225.32kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-02T19:00:53+08:00] 47.100.7.25 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.020826s] [吞吐率：48.02req/s] [内存消耗：2,210.23kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]

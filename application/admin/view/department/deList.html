@@ -1,0 +1,86 @@
+{include file="common/head"/}
+<div class="admin-main layui-anim layui-anim-upbit">
+    <fieldset class="layui-elem-field layui-field-title">
+        <legend>部门信息</legend>
+    </fieldset>
+    <table class="layui-table" id="list" lay-filter="list"></table>
+</div>
+
+{include file="common/foot"/}
+<script type="text/html" id="barDemo">
+    <a href="{:url('deEdit')}?id={{d.id}}" class="layui-btn layui-btn-xs">{:lang('edit')}</a>
+    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">{:lang('del')}</a>
+</script>
+<!--<script type="text/html" id="open">-->
+    <!--<input type="checkbox" name="status" value="{{d.id}}" lay-skin="switch" lay-text="开启|关闭" lay-filter="open" {{ d.status == 1 ? 'checked' : '' }}>-->
+<!--</script>-->
+
+<script type="text/html" id="topBtn">
+   <a href="{:url('deAdd')}" class="layui-btn layui-btn-sm">添加部门</a>
+</script>
+<script>
+    layui.use(['table','form'], function() {
+        var table = layui.table,form = layui.form,$ = layui.jquery;
+
+        var tableIn = table.render({
+            elem: '#list',
+            url: '{:url("deList")}',
+            method:'post',
+			toolbar: '#topBtn',
+			title:'部门信息',
+            cols: [[
+                {field:'id', title: '编号', width:60,fixed: true}
+                ,{field:'sort', title: '排序值', minWidth:80}
+                ,{field:'class_name', title: '部门名称', minWidth:170}
+                ,{field:'create_time', title: '添加时间', minWidth:120,templet: function(d){
+                    return layui.util.toDateString(parseInt(d.create_time+"000"), "yyyy-MM-dd HH:mm:ss");
+                }}
+//                ,{field:'status', title: '状态',minWidth:100,toolbar: '#open'}
+                ,{minWidth:120, align:'center', toolbar: '#barDemo'}
+            ]]
+        });
+        //监听搜索
+        form.on('submit(LAY-app-contlist-search)', function(data){
+            var field = data.field;
+//            console.log(field);
+            //执行重载
+            tableIn.reload({
+                where: field
+            });
+
+        });
+//        form.on('switch(open)', function(obj){
+//            loading =layer.load(1, {shade: [0.1,'#fff']});
+//            var id = this.value;
+//            var is_open = obj.elem.checked===true?1:2;
+//            $.post('{:url("deState")}',{'id':id,'is_open':is_open},function (res) {
+//                layer.close(loading);
+//                if (res.status==1) {
+//                    tableIn.reload();
+//                }else{
+//                    layer.msg(res.msg,{time:1000,icon:2});
+//                    return false;
+//                }
+//            })
+//        });
+        table.on('tool(list)', function(obj){
+            var data = obj.data;
+            if(obj.event === 'del'){
+                layer.confirm('{:lang("Are you sure you want to delete it")}', function(index){
+                    $.post("{:url('deDel')}",{id:data.id},function(res){
+                        if(res.code==1){
+                            layer.msg(res.msg,{time:1000,icon:1});
+                            obj.del();
+                        }else{
+                            layer.msg(res.msg,{time:1000,icon:2});
+                        }
+                    });
+                    layer.close(index);
+                });
+            }
+        });
+
+    });
+</script>
+</body>
+</html>

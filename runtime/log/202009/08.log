@@ -1,0 +1,163 @@
+---------------------------------------------------------------
+[2020-09-08T02:55:17+08:00] 104.131.176.177 GET pingshen.hbhb.vip/
+[运行时间：0.021144s] [吞吐率：47.29req/s] [内存消耗：2,224.82kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-09-08T12:44:11+08:00] 183.136.225.35 GET pingshen.hbhb.vip/
+[运行时间：0.021486s] [吞吐率：46.54req/s] [内存消耗：2,225.11kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-09-08T12:44:12+08:00] 183.136.225.35 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.021589s] [吞吐率：46.32req/s] [内存消耗：2,210.22kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-09-08T12:54:13+08:00] 183.136.225.35 GET pingshen.hbhb.vip/
+[运行时间：0.020759s] [吞吐率：48.17req/s] [内存消耗：2,225.11kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-09-08T12:54:14+08:00] 183.136.225.35 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.021431s] [吞吐率：46.66req/s] [内存消耗：2,210.22kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-09-08T13:47:30+08:00] 101.132.78.36 GET pingshen.hbhb.vip/
+[运行时间：0.021271s] [吞吐率：47.01req/s] [内存消耗：2,224.93kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (linux/Linux)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-09-08T13:47:30+08:00] 101.132.78.36 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.020758s] [吞吐率：48.17req/s] [内存消耗：2,210.10kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (linux/Linux)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-09-08T13:47:32+08:00] 101.132.78.36 GET pingshen.hbhb.vip/admin/index/index.html
+[运行时间：0.020689s] [吞吐率：48.33req/s] [内存消耗：2,225.13kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (linux/Linux)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-09-08T13:47:32+08:00] 101.132.78.36 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.020784s] [吞吐率：48.11req/s] [内存消耗：2,210.10kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (linux/Linux)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]

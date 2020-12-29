@@ -1,0 +1,85 @@
+{include file="common/head"/}
+<div class="admin-main layui-anim layui-anim-upbit">
+    <div class="layui-fluid">
+        <div class="layui-card">
+            <div class="layui-form layui-card-header layuiadmin-card-header-auto">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">关键字</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="keywords" placeholder="模块|方法|内容|操作用户" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <button class="layui-btn layuiadmin-btn-list" lay-submit lay-filter="LAY-app-contlist-search">
+                            <i class="layui-icon layui-icon-search layuiadmin-button-btn"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    <fieldset class="layui-elem-field layui-field-title">-->
+<!--        <legend>{:lang('userlist')}</legend>-->
+<!--    </fieldset>-->
+    <table class="layui-table" id="list" lay-filter="list"></table>
+</div>
+
+{include file="common/foot"/}
+<script type="text/html" id="barDemo">
+    <a href="{:url('userEdit')}?id={{d.id}}" class="layui-btn layui-btn-xs">{:lang('edit')}</a>
+<!--    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">{:lang('del')}</a>-->
+</script>
+<script type="text/html" id="open">
+    <input type="checkbox" name="status" value="{{d.id}}" lay-skin="switch" lay-text="正常|禁用" lay-filter="open"  {{ d.status == 1 ? 'checked' : '' }} >
+</script>
+<script type="text/html" id="userlevel">
+    {{ d.userlevel == 1 ? '普通会员' : '金牌会员' }}
+</script>
+<script type="text/html" id="wxacode">
+    <a href="{{d.wxacode}}" target="_blank"><img src="{{d.wxacode}}" alt="" width="30"></a>
+</script>
+<script type="text/html" id="parent_id">
+    <a href="javascript:void(0)" lay-event="change_parent" title="单击变更" style="color: #008cff">{{d.parent_user}}</a>
+</script>
+<!--<script type="text/html" id="topBtn">-->
+   <!--<a href="{:url('adminAdd')}" class="layui-btn layui-btn-sm">{:lang('add')}{:lang('admin')}</a>-->
+<!--</script>-->
+<script>
+    layui.use(['table','form','layer'], function() {
+        var table = layui.table,form = layui.form,layer = layui.layer,$ = layui.jquery;
+
+        var tableIn = table.render({
+            elem: '#list',
+            url: '{:url("log")}',
+            page:true,
+            method:'post',
+			toolbar: '#topBtn',
+			title:'系统日志',
+            // count:1000,
+            // limit:20,
+            cols: [[
+                {field:'id', title: '编号', width:80,fixed: true}
+                ,{field:'moudle', title: '模块'}
+				,{field:'action', title: '方法'}
+                ,{field:'detail', title: '内容',minWidth:400}
+                ,{field:'admin_user', title: '操作人'}
+                ,{field:'create_ip', title: '操作IP'}
+                ,{field:'create_time', title: '操作时间'}
+            ]]
+        });
+        //监听搜索
+        form.on('submit(LAY-app-contlist-search)', function(data){
+            var field = data.field;
+//            console.log(field);
+            //执行重载
+            tableIn.reload({
+                where: field
+            });
+
+        });
+
+    });
+</script>
+</body>
+</html>

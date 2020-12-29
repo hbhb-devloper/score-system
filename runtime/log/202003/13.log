@@ -1,0 +1,1479 @@
+---------------------------------------------------------------
+[2020-03-13T01:39:11+08:00] 175.24.98.207 POST pingshen.hbhb.vip/api/users/wxlogin
+[运行时间：0.312343s] [吞吐率：3.20req/s] [内存消耗：3,775.59kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-wx-cascade-timeout' => '10000',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5 mpcrawler',
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'host' => 'pingshen.hbhb.vip',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021xCS9S0xJpg5232mbS01rz9S0xCS9V',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008758s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007719s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5UD5QXcGWTxvF1chkc5vNGY' LIMIT 1 [ RunTime:0.005882s ]
+---------------------------------------------------------------
+[2020-03-13T01:39:11+08:00] 175.24.68.98 POST pingshen.hbhb.vip/api/users/reg
+[运行时间：0.137922s] [吞吐率：7.25req/s] [内存消耗：3,555.35kb] [文件加载：94]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-wx-cascade-timeout' => '10000',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5 mpcrawler',
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'host' => 'pingshen.hbhb.vip',
+  'content-length' => '223',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'nickName' => '刘皓杰',
+  'gender' => '0',
+  'language' => 'zh_CN',
+  'city' => '',
+  'province' => '',
+  'country' => '',
+  'avatarUrl' => 'https://wx.qlogo.cn/mmhead/nibib01HNmKTRm9GgtHYymIlGDC7XIiaQH2Y450pKVy6D0/132',
+  'openid' => 'oqBTY5UD5QXcGWTxvF1chkc5vNGY',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: nickname[/www/wwwroot/pingshen/application/api/controller/Users.php:49]
+[ error ] [8]未定义数组索引: avatarurl[/www/wwwroot/pingshen/application/api/controller/Users.php:50]
+[ error ] [8]未定义数组索引: u[/www/wwwroot/pingshen/application/api/controller/Users.php:72]
+[ error ] [8192]Non-static method app\api\model\Token::create_unique() should not be called statically[/www/wwwroot/pingshen/application/api/model/Token.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009232s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007603s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5UD5QXcGWTxvF1chkc5vNGY' LIMIT 1 [ RunTime:0.006290s ]
+[ sql ] [ SQL ] INSERT INTO `weixin_user` (`gender` , `language` , `city` , `province` , `country` , `openid` , `nickname` , `avatarurl`) VALUES ('0' , 'zh_CN' , '' , '' , '' , 'oqBTY5UD5QXcGWTxvF1chkc5vNGY' , '刘皓杰' , 'https://wx.qlogo.cn/mmhead/nibib01HNmKTRm9GgtHYymIlGDC7XIiaQH2Y450pKVy6D0/132') [ RunTime:0.006184s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5UD5QXcGWTxvF1chkc5vNGY' LIMIT 1 [ RunTime:0.006223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007577s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `openid` = 'oqBTY5UD5QXcGWTxvF1chkc5vNGY' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.006310s ]
+[ sql ] [ SQL ] INSERT INTO `users` (`city` , `province` , `country` , `openid` , `nickname` , `headimg` , `sex` , `parent_id`) VALUES ('' , '' , '' , 'oqBTY5UD5QXcGWTxvF1chkc5vNGY' , '刘皓杰' , 'https://wx.qlogo.cn/mmhead/nibib01HNmKTRm9GgtHYymIlGDC7XIiaQH2Y450pKVy6D0/132' , 0 , 0) [ RunTime:0.006189s ]
+[ sql ] [ SQL ] UPDATE `weixin_user`  SET `userid` = 38  WHERE  `openid` = 'oqBTY5UD5QXcGWTxvF1chkc5vNGY' [ RunTime:0.006282s ]
+[ sql ] [ SQL ] UPDATE `users`  SET `sex` = 0 , `country` = '' , `province` = '' , `city` = ''  WHERE  `id` = 38 [ RunTime:0.006187s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.006255s ]
+---------------------------------------------------------------
+[2020-03-13T01:39:14+08:00] 118.89.84.149 POST pingshen.hbhb.vip/api/users/wxlogin
+[运行时间：0.145517s] [吞吐率：6.87req/s] [内存消耗：3,775.59kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-wx-cascade-timeout' => '10000',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5 mpcrawler',
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'host' => 'pingshen.hbhb.vip',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0116OkU81L037L1HfrX81zJ4U816OkUR',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008468s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007098s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5SBJ3WyxnzvMV_mRU60ABs4' LIMIT 1 [ RunTime:0.005736s ]
+---------------------------------------------------------------
+[2020-03-13T01:39:14+08:00] 175.24.110.20 POST pingshen.hbhb.vip/api/users/reg
+[运行时间：0.142382s] [吞吐率：7.02req/s] [内存消耗：3,555.32kb] [文件加载：94]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-wx-cascade-timeout' => '10000',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5 mpcrawler',
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'host' => 'pingshen.hbhb.vip',
+  'content-length' => '221',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'nickName' => '陈信天',
+  'gender' => '0',
+  'language' => 'zh_CN',
+  'city' => '',
+  'province' => '',
+  'country' => '',
+  'avatarUrl' => 'https://wx.qlogo.cn/mmhead/uBhFRA9Yc9VzyaSodsbwjDoN2C4ABy9afbFrz1QsiaAI/132',
+  'openid' => 'oqBTY5SBJ3WyxnzvMV_mRU60ABs4',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: nickname[/www/wwwroot/pingshen/application/api/controller/Users.php:49]
+[ error ] [8]未定义数组索引: avatarurl[/www/wwwroot/pingshen/application/api/controller/Users.php:50]
+[ error ] [8]未定义数组索引: u[/www/wwwroot/pingshen/application/api/controller/Users.php:72]
+[ error ] [8192]Non-static method app\api\model\Token::create_unique() should not be called statically[/www/wwwroot/pingshen/application/api/model/Token.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009423s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007727s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5SBJ3WyxnzvMV_mRU60ABs4' LIMIT 1 [ RunTime:0.006355s ]
+[ sql ] [ SQL ] INSERT INTO `weixin_user` (`gender` , `language` , `city` , `province` , `country` , `openid` , `nickname` , `avatarurl`) VALUES ('0' , 'zh_CN' , '' , '' , '' , 'oqBTY5SBJ3WyxnzvMV_mRU60ABs4' , '陈信天' , 'https://wx.qlogo.cn/mmhead/uBhFRA9Yc9VzyaSodsbwjDoN2C4ABy9afbFrz1QsiaAI/132') [ RunTime:0.006296s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5SBJ3WyxnzvMV_mRU60ABs4' LIMIT 1 [ RunTime:0.006342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007507s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `openid` = 'oqBTY5SBJ3WyxnzvMV_mRU60ABs4' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.006427s ]
+[ sql ] [ SQL ] INSERT INTO `users` (`city` , `province` , `country` , `openid` , `nickname` , `headimg` , `sex` , `parent_id`) VALUES ('' , '' , '' , 'oqBTY5SBJ3WyxnzvMV_mRU60ABs4' , '陈信天' , 'https://wx.qlogo.cn/mmhead/uBhFRA9Yc9VzyaSodsbwjDoN2C4ABy9afbFrz1QsiaAI/132' , 0 , 0) [ RunTime:0.006253s ]
+[ sql ] [ SQL ] UPDATE `weixin_user`  SET `userid` = 39  WHERE  `openid` = 'oqBTY5SBJ3WyxnzvMV_mRU60ABs4' [ RunTime:0.006378s ]
+[ sql ] [ SQL ] UPDATE `users`  SET `sex` = 0 , `country` = '' , `province` = '' , `city` = ''  WHERE  `id` = 39 [ RunTime:0.006273s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.006334s ]
+---------------------------------------------------------------
+[2020-03-13T02:00:04+08:00] 118.89.83.63 POST pingshen.hbhb.vip/api/users/wxlogin
+[运行时间：0.154658s] [吞吐率：6.47req/s] [内存消耗：3,775.59kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-wx-cascade-timeout' => '10000',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5 mpcrawler',
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'host' => 'pingshen.hbhb.vip',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081bgGqd0joXlz132Lqd0Nu3rd0bgGqU',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009429s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007804s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5QA6bHQTXor_LWvbIAWe90w' LIMIT 1 [ RunTime:0.006382s ]
+---------------------------------------------------------------
+[2020-03-13T02:00:04+08:00] 118.89.83.63 POST pingshen.hbhb.vip/api/users/reg
+[运行时间：0.140235s] [吞吐率：7.13req/s] [内存消耗：3,555.32kb] [文件加载：94]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-wx-cascade-timeout' => '10000',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5 mpcrawler',
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'host' => 'pingshen.hbhb.vip',
+  'content-length' => '222',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'nickName' => '潘智侑',
+  'gender' => '0',
+  'language' => 'zh_CN',
+  'city' => '',
+  'province' => '',
+  'country' => '',
+  'avatarUrl' => 'https://wx.qlogo.cn/mmhead/esPILb1AoFoV3h1vq6TMTibcjNvCVTR3gicOrWw6KlyLU/132',
+  'openid' => 'oqBTY5QA6bHQTXor_LWvbIAWe90w',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: nickname[/www/wwwroot/pingshen/application/api/controller/Users.php:49]
+[ error ] [8]未定义数组索引: avatarurl[/www/wwwroot/pingshen/application/api/controller/Users.php:50]
+[ error ] [8]未定义数组索引: u[/www/wwwroot/pingshen/application/api/controller/Users.php:72]
+[ error ] [8192]Non-static method app\api\model\Token::create_unique() should not be called statically[/www/wwwroot/pingshen/application/api/model/Token.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009315s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007725s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5QA6bHQTXor_LWvbIAWe90w' LIMIT 1 [ RunTime:0.006224s ]
+[ sql ] [ SQL ] INSERT INTO `weixin_user` (`gender` , `language` , `city` , `province` , `country` , `openid` , `nickname` , `avatarurl`) VALUES ('0' , 'zh_CN' , '' , '' , '' , 'oqBTY5QA6bHQTXor_LWvbIAWe90w' , '潘智侑' , 'https://wx.qlogo.cn/mmhead/esPILb1AoFoV3h1vq6TMTibcjNvCVTR3gicOrWw6KlyLU/132') [ RunTime:0.006209s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5QA6bHQTXor_LWvbIAWe90w' LIMIT 1 [ RunTime:0.006244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007665s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `openid` = 'oqBTY5QA6bHQTXor_LWvbIAWe90w' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.006400s ]
+[ sql ] [ SQL ] INSERT INTO `users` (`city` , `province` , `country` , `openid` , `nickname` , `headimg` , `sex` , `parent_id`) VALUES ('' , '' , '' , 'oqBTY5QA6bHQTXor_LWvbIAWe90w' , '潘智侑' , 'https://wx.qlogo.cn/mmhead/esPILb1AoFoV3h1vq6TMTibcjNvCVTR3gicOrWw6KlyLU/132' , 0 , 0) [ RunTime:0.006138s ]
+[ sql ] [ SQL ] UPDATE `weixin_user`  SET `userid` = 40  WHERE  `openid` = 'oqBTY5QA6bHQTXor_LWvbIAWe90w' [ RunTime:0.006295s ]
+[ sql ] [ SQL ] UPDATE `users`  SET `sex` = 0 , `country` = '' , `province` = '' , `city` = ''  WHERE  `id` = 40 [ RunTime:0.006153s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 40 LIMIT 1 [ RunTime:0.006258s ]
+---------------------------------------------------------------
+[2020-03-13T04:43:06+08:00] 123.206.104.18 POST pingshen.hbhb.vip/api/users/wxlogin
+[运行时间：0.299381s] [吞吐率：3.34req/s] [内存消耗：3,775.59kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-wx-cascade-timeout' => '10000',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5 mpcrawler',
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'host' => 'pingshen.hbhb.vip',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061mJI0h2vrz0D0GRO3h2P1I0h2mJI0h',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009064s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007469s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5T3BXTZZyIl5EH2hqMCBekU' LIMIT 1 [ RunTime:0.006117s ]
+---------------------------------------------------------------
+[2020-03-13T04:43:06+08:00] 101.91.60.112 POST pingshen.hbhb.vip/api/users/reg
+[运行时间：0.133152s] [吞吐率：7.51req/s] [内存消耗：3,555.32kb] [文件加载：94]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-wx-cascade-timeout' => '10000',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5 mpcrawler',
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'host' => 'pingshen.hbhb.vip',
+  'content-length' => '222',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'nickName' => '张永喜',
+  'gender' => '0',
+  'language' => 'zh_CN',
+  'city' => '',
+  'province' => '',
+  'country' => '',
+  'avatarUrl' => 'https://wx.qlogo.cn/mmhead/vwUCp60IO4Ij40ZY2yiabLDL0xgibLts84V4XSwjR020c/132',
+  'openid' => 'oqBTY5T3BXTZZyIl5EH2hqMCBekU',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: nickname[/www/wwwroot/pingshen/application/api/controller/Users.php:49]
+[ error ] [8]未定义数组索引: avatarurl[/www/wwwroot/pingshen/application/api/controller/Users.php:50]
+[ error ] [8]未定义数组索引: u[/www/wwwroot/pingshen/application/api/controller/Users.php:72]
+[ error ] [8192]Non-static method app\api\model\Token::create_unique() should not be called statically[/www/wwwroot/pingshen/application/api/model/Token.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008774s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007290s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5T3BXTZZyIl5EH2hqMCBekU' LIMIT 1 [ RunTime:0.005982s ]
+[ sql ] [ SQL ] INSERT INTO `weixin_user` (`gender` , `language` , `city` , `province` , `country` , `openid` , `nickname` , `avatarurl`) VALUES ('0' , 'zh_CN' , '' , '' , '' , 'oqBTY5T3BXTZZyIl5EH2hqMCBekU' , '张永喜' , 'https://wx.qlogo.cn/mmhead/vwUCp60IO4Ij40ZY2yiabLDL0xgibLts84V4XSwjR020c/132') [ RunTime:0.005904s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5T3BXTZZyIl5EH2hqMCBekU' LIMIT 1 [ RunTime:0.005980s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007241s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `openid` = 'oqBTY5T3BXTZZyIl5EH2hqMCBekU' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.006010s ]
+[ sql ] [ SQL ] INSERT INTO `users` (`city` , `province` , `country` , `openid` , `nickname` , `headimg` , `sex` , `parent_id`) VALUES ('' , '' , '' , 'oqBTY5T3BXTZZyIl5EH2hqMCBekU' , '张永喜' , 'https://wx.qlogo.cn/mmhead/vwUCp60IO4Ij40ZY2yiabLDL0xgibLts84V4XSwjR020c/132' , 0 , 0) [ RunTime:0.005865s ]
+[ sql ] [ SQL ] UPDATE `weixin_user`  SET `userid` = 41  WHERE  `openid` = 'oqBTY5T3BXTZZyIl5EH2hqMCBekU' [ RunTime:0.006015s ]
+[ sql ] [ SQL ] UPDATE `users`  SET `sex` = 0 , `country` = '' , `province` = '' , `city` = ''  WHERE  `id` = 41 [ RunTime:0.005873s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 41 LIMIT 1 [ RunTime:0.006004s ]
+---------------------------------------------------------------
+[2020-03-13T06:26:02+08:00] 123.206.101.13 POST pingshen.hbhb.vip/api/users/wxlogin
+[运行时间：0.135313s] [吞吐率：7.39req/s] [内存消耗：3,775.59kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-wx-cascade-timeout' => '10000',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5 mpcrawler',
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'host' => 'pingshen.hbhb.vip',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061tfk340BYSHI1fUN440fJW240tfk3X',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008581s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007189s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5fsZDcVPWgm7Au7NYcuWqWY' LIMIT 1 [ RunTime:0.005779s ]
+---------------------------------------------------------------
+[2020-03-13T06:26:03+08:00] 223.166.222.108 POST pingshen.hbhb.vip/api/users/reg
+[运行时间：0.136930s] [吞吐率：7.30req/s] [内存消耗：3,555.32kb] [文件加载：94]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-wx-cascade-timeout' => '10000',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5 mpcrawler',
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'host' => 'pingshen.hbhb.vip',
+  'content-length' => '222',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'nickName' => '林秀正',
+  'gender' => '0',
+  'language' => 'zh_CN',
+  'city' => '',
+  'province' => '',
+  'country' => '',
+  'avatarUrl' => 'https://wx.qlogo.cn/mmhead/R7sXxDbcx0RiadugvBnyqia3wIcBF5z17blSJHM2IU9ZA/132',
+  'openid' => 'oqBTY5fsZDcVPWgm7Au7NYcuWqWY',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: nickname[/www/wwwroot/pingshen/application/api/controller/Users.php:49]
+[ error ] [8]未定义数组索引: avatarurl[/www/wwwroot/pingshen/application/api/controller/Users.php:50]
+[ error ] [8]未定义数组索引: u[/www/wwwroot/pingshen/application/api/controller/Users.php:72]
+[ error ] [8192]Non-static method app\api\model\Token::create_unique() should not be called statically[/www/wwwroot/pingshen/application/api/model/Token.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009041s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007575s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5fsZDcVPWgm7Au7NYcuWqWY' LIMIT 1 [ RunTime:0.006090s ]
+[ sql ] [ SQL ] INSERT INTO `weixin_user` (`gender` , `language` , `city` , `province` , `country` , `openid` , `nickname` , `avatarurl`) VALUES ('0' , 'zh_CN' , '' , '' , '' , 'oqBTY5fsZDcVPWgm7Au7NYcuWqWY' , '林秀正' , 'https://wx.qlogo.cn/mmhead/R7sXxDbcx0RiadugvBnyqia3wIcBF5z17blSJHM2IU9ZA/132') [ RunTime:0.006029s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5fsZDcVPWgm7Au7NYcuWqWY' LIMIT 1 [ RunTime:0.006076s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007624s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `openid` = 'oqBTY5fsZDcVPWgm7Au7NYcuWqWY' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.006191s ]
+[ sql ] [ SQL ] INSERT INTO `users` (`city` , `province` , `country` , `openid` , `nickname` , `headimg` , `sex` , `parent_id`) VALUES ('' , '' , '' , 'oqBTY5fsZDcVPWgm7Au7NYcuWqWY' , '林秀正' , 'https://wx.qlogo.cn/mmhead/R7sXxDbcx0RiadugvBnyqia3wIcBF5z17blSJHM2IU9ZA/132' , 0 , 0) [ RunTime:0.005997s ]
+[ sql ] [ SQL ] UPDATE `weixin_user`  SET `userid` = 42  WHERE  `openid` = 'oqBTY5fsZDcVPWgm7Au7NYcuWqWY' [ RunTime:0.006227s ]
+[ sql ] [ SQL ] UPDATE `users`  SET `sex` = 0 , `country` = '' , `province` = '' , `city` = ''  WHERE  `id` = 42 [ RunTime:0.005994s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 42 LIMIT 1 [ RunTime:0.006100s ]
+---------------------------------------------------------------
+[2020-03-13T07:35:30+08:00] 47.101.187.80 GET pingshen.hbhb.vip/
+[运行时间：0.020568s] [吞吐率：48.62req/s] [内存消耗：2,225.12kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-03-13T07:35:30+08:00] 47.101.187.80 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.021003s] [吞吐率：47.61req/s] [内存消耗：2,210.23kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-03-13T07:35:31+08:00] 47.101.187.80 GET pingshen.hbhb.vip/admin/index/index.html
+[运行时间：0.021003s] [吞吐率：47.61req/s] [内存消耗：2,225.32kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-03-13T07:35:31+08:00] 47.101.187.80 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.021078s] [吞吐率：47.44req/s] [内存消耗：2,210.23kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-03-13T09:50:19+08:00] 125.120.44.170 GET pingshen.hbhb.vip/admin/index/index.html
+[运行时间：0.021025s] [吞吐率：47.56req/s] [内存消耗：2,226.63kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-03-13T09:50:19+08:00] 125.120.44.170 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.021702s] [吞吐率：46.08req/s] [内存消耗：2,211.58kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-03-13T09:50:20+08:00] 125.120.44.170 POST pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.051211s] [吞吐率：19.53req/s] [内存消耗：3,350.16kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/login/index.html',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '32',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin123',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008966s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.007316s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.005985s ]
+---------------------------------------------------------------
+[2020-03-13T09:50:21+08:00] 125.120.44.170 GET pingshen.hbhb.vip/admin/index/index.html
+[运行时间：0.051375s] [吞吐率：19.46req/s] [内存消耗：3,141.38kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/index/index.html [ array (
+  0 => 'menus',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008192s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.006769s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  ( menustatus=1 ) ORDER BY `sort` [ RunTime:0.005580s ]
+---------------------------------------------------------------
+[2020-03-13T09:50:21+08:00] 125.120.44.170 GET pingshen.hbhb.vip/uploads/20180625/f266169c2956429d9aaea6cf6f1e51cb.jpg
+[运行时间：0.015272s] [吞吐率：65.48req/s] [内存消耗：1,661.92kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2020-03-13T09:50:22+08:00] 125.120.44.170 GET pingshen.hbhb.vip/admin/index/main.html
+[运行时间：0.042687s] [吞吐率：23.43req/s] [内存消耗：3,098.39kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/index/main.html [ array (
+  0 => 'config',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008511s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.005582s ]
+[ error ] [8]未定义数组索引: HTTP_CLIENT_IP[/www/wwwroot/pingshen/application/common.php:227]
+[ error ] [8]未定义数组索引: HTTP_X_FORWARDED_FOR[/www/wwwroot/pingshen/application/common.php:229]
+---------------------------------------------------------------
+[2020-03-13T09:52:02+08:00] 125.120.44.170 POST pingshen.hbhb.vip/api/users/wxlogin
+[运行时间：0.676770s] [吞吐率：1.48req/s] [内存消耗：3,848.66kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; YAL-AL00 Build/HUAWEIYAL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.186 Mobile Safari/537.36 MicroMessenger/7.0.12.1620(0x27000C36) Process/appbrand0 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011kWGVG0ZY7og23ohUG0PDMVG0kWGVT',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ error ] [8192]Non-static method app\api\model\Token::create_unique() should not be called statically[/www/wwwroot/pingshen/application/api/model/Token.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009307s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007882s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5eZ37vXTqGXnXIAubLLbDwE' LIMIT 1 [ RunTime:0.006029s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007247s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.006043s ]
+---------------------------------------------------------------
+[2020-03-13T09:52:02+08:00] 125.120.44.170 POST pingshen.hbhb.vip/api/department/departList
+[运行时间：0.057270s] [吞吐率：17.46req/s] [内存消耗：3,414.01kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; YAL-AL00 Build/HUAWEIYAL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.186 Mobile Safari/537.36 MicroMessenger/7.0.12.1620(0x27000C36) Process/appbrand0 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'content-length' => '52',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'c24e2155206ebe579503a6550b9f86f996f4ce22',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008653s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.007191s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `department` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.005765s ]
+[ sql ] [ SQL ] SELECT `id`,`class_name` FROM `department` ORDER BY `sort` DESC,`id` ASC LIMIT 0,12 [ RunTime:0.005744s ]
+---------------------------------------------------------------
+[2020-03-13T09:52:02+08:00] 125.120.44.170 POST pingshen.hbhb.vip/api/standard/standList
+[运行时间：0.055968s] [吞吐率：17.87req/s] [内存消耗：3,523.85kb] [文件加载：91]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; YAL-AL00 Build/HUAWEIYAL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.186 Mobile Safari/537.36 MicroMessenger/7.0.12.1620(0x27000C36) Process/appbrand0 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'content-length' => '52',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'c24e2155206ebe579503a6550b9f86f996f4ce22',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009476s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.008067s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.006578s ]
+---------------------------------------------------------------
+[2020-03-13T09:52:10+08:00] 125.120.44.170 GET pingshen.hbhb.vip/admin/users/userlist.html
+[运行时间：0.022441s] [吞吐率：44.56req/s] [内存消耗：2,223.94kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/users/user_list.html [ array (
+) ]
+---------------------------------------------------------------
+[2020-03-13T09:52:10+08:00] 125.120.44.170 POST pingshen.hbhb.vip/admin/users/userlist.html
+[运行时间：0.051654s] [吞吐率：19.36req/s] [内存消耗：3,125.96kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/users/userlist.html',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009583s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.008092s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  ( `nickname` LIKE '%%' OR `email` LIKE '%%' OR `mobile` LIKE '%%' ) [ RunTime:0.006639s ]
+---------------------------------------------------------------
+[2020-03-13T09:52:23+08:00] 125.120.44.170 GET pingshen.hbhb.vip/admin/users/useredit.html?id=2
+[运行时间：0.052469s] [吞吐率：19.06req/s] [内存消耗：3,154.78kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/users/userlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/users/user_form.html [ array (
+  0 => 'info',
+  1 => 'title',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009256s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007959s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.006308s ]
+---------------------------------------------------------------
+[2020-03-13T09:52:24+08:00] 125.120.44.170 GET pingshen.hbhb.vip/admin/users/userlist.html
+[运行时间：0.022025s] [吞吐率：45.40req/s] [内存消耗：2,223.94kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/users/useredit.html?id=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/users/user_list.html [ array (
+) ]
+---------------------------------------------------------------
+[2020-03-13T09:52:24+08:00] 125.120.44.170 POST pingshen.hbhb.vip/admin/users/userlist.html
+[运行时间：0.050106s] [吞吐率：19.96req/s] [内存消耗：3,125.96kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/users/userlist.html',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009140s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007904s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  ( `nickname` LIKE '%%' OR `email` LIKE '%%' OR `mobile` LIKE '%%' ) [ RunTime:0.006304s ]
+---------------------------------------------------------------
+[2020-03-13T09:52:28+08:00] 125.120.44.170 GET pingshen.hbhb.vip/admin/users/useredit.html?id=33
+[运行时间：0.053648s] [吞吐率：18.64req/s] [内存消耗：3,154.78kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/users/userlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '33',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/users/user_form.html [ array (
+  0 => 'info',
+  1 => 'title',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008806s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.008937s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.006033s ]
+---------------------------------------------------------------
+[2020-03-13T09:52:29+08:00] 125.120.44.170 GET pingshen.hbhb.vip/admin/users/userlist.html
+[运行时间：0.023455s] [吞吐率：42.63req/s] [内存消耗：2,223.94kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/users/useredit.html?id=33',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/users/user_list.html [ array (
+) ]
+---------------------------------------------------------------
+[2020-03-13T09:52:29+08:00] 125.120.44.170 POST pingshen.hbhb.vip/admin/users/userlist.html
+[运行时间：0.050269s] [吞吐率：19.89req/s] [内存消耗：3,125.96kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/users/userlist.html',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009191s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007752s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  ( `nickname` LIKE '%%' OR `email` LIKE '%%' OR `mobile` LIKE '%%' ) [ RunTime:0.006445s ]
+---------------------------------------------------------------
+[2020-03-13T09:52:34+08:00] 125.120.44.170 POST pingshen.hbhb.vip/admin/users/userstate.html
+[运行时间：0.052165s] [吞吐率：19.17req/s] [内存消耗：3,075.03kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/users/userlist.html',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'id' => '33',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008707s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007378s ]
+[ sql ] [ SQL ] UPDATE `users`  SET `status` = 1  WHERE  ( id=33 ) [ RunTime:0.008567s ]
+---------------------------------------------------------------
+[2020-03-13T09:52:34+08:00] 125.120.44.170 POST pingshen.hbhb.vip/admin/users/userlist.html
+[运行时间：0.049259s] [吞吐率：20.30req/s] [内存消耗：3,125.96kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=ql8epdutajvahh7a2rfivfphm8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/users/userlist.html',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008847s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007619s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  ( `nickname` LIKE '%%' OR `email` LIKE '%%' OR `mobile` LIKE '%%' ) [ RunTime:0.006218s ]
+---------------------------------------------------------------
+[2020-03-13T09:54:39+08:00] 125.120.44.170 POST pingshen.hbhb.vip/api/standard/saveMark
+[运行时间：0.226484s] [吞吐率：4.42req/s] [内存消耗：3,848.34kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; YAL-AL00 Build/HUAWEIYAL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.186 Mobile Safari/537.36 MicroMessenger/7.0.12.1620(0x27000C36) Process/appbrand0 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'content-length' => '608',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'c24e2155206ebe579503a6550b9f86f996f4ce22',
+  'mark_msg' => 
+  array (
+    0 => 
+    array (
+      'c_id' => '1',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    1 => 
+    array (
+      'c_id' => '3',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    2 => 
+    array (
+      'c_id' => '2',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    3 => 
+    array (
+      'c_id' => '4',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    4 => 
+    array (
+      'c_id' => '5',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    5 => 
+    array (
+      'c_id' => '6',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    6 => 
+    array (
+      'c_id' => '7',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    7 => 
+    array (
+      'c_id' => '8',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    8 => 
+    array (
+      'c_id' => '9',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    9 => 
+    array (
+      'c_id' => '10',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    10 => 
+    array (
+      'c_id' => '11',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    11 => 
+    array (
+      'c_id' => '12',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009072s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007937s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.006222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007230s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `userid` = 33 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.006166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `achievement` [ RunTime:0.007107s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 1 [ RunTime:0.006073s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '1' , 0 , '' , 1) [ RunTime:0.006069s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 3 [ RunTime:0.006075s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '1' , 0 , '' , 3) [ RunTime:0.005985s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 2 [ RunTime:0.006012s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '1' , 0 , '' , 2) [ RunTime:0.006049s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 4 [ RunTime:0.006015s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '1' , 0 , '' , 4) [ RunTime:0.005967s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 5 [ RunTime:0.005993s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '1' , 0 , '' , 5) [ RunTime:0.006017s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 6 [ RunTime:0.005994s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '1' , 0 , '' , 6) [ RunTime:0.005971s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 7 [ RunTime:0.006148s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '1' , 0 , '' , 7) [ RunTime:0.006007s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 8 [ RunTime:0.006066s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '1' , 0 , '' , 8) [ RunTime:0.006047s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 9 [ RunTime:0.006140s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '1' , 0 , '' , 9) [ RunTime:0.006160s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 10 [ RunTime:0.006167s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '1' , 0 , '' , 10) [ RunTime:0.006105s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 11 [ RunTime:0.006243s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '1' , 0 , '' , 11) [ RunTime:0.006109s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 12 [ RunTime:0.006040s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '1' , 0 , '' , 12) [ RunTime:0.006033s ]
+---------------------------------------------------------------
+[2020-03-13T09:54:39+08:00] 125.120.44.170 POST pingshen.hbhb.vip/api/standard/saveMark
+[运行时间：0.230317s] [吞吐率：4.34req/s] [内存消耗：3,848.34kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; YAL-AL00 Build/HUAWEIYAL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.186 Mobile Safari/537.36 MicroMessenger/7.0.12.1620(0x27000C36) Process/appbrand0 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'content-length' => '608',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'c24e2155206ebe579503a6550b9f86f996f4ce22',
+  'mark_msg' => 
+  array (
+    0 => 
+    array (
+      'c_id' => '1',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    1 => 
+    array (
+      'c_id' => '3',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    2 => 
+    array (
+      'c_id' => '2',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    3 => 
+    array (
+      'c_id' => '4',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    4 => 
+    array (
+      'c_id' => '5',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    5 => 
+    array (
+      'c_id' => '6',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    6 => 
+    array (
+      'c_id' => '7',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    7 => 
+    array (
+      'c_id' => '8',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    8 => 
+    array (
+      'c_id' => '9',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    9 => 
+    array (
+      'c_id' => '10',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    10 => 
+    array (
+      'c_id' => '11',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+    11 => 
+    array (
+      'c_id' => '12',
+      'total_score' => '0',
+      'score_detail' => 
+      array (
+      ),
+    ),
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009212s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007822s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.006376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007309s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `userid` = 33 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.006247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `achievement` [ RunTime:0.007248s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 1 [ RunTime:0.006218s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '2' , 0 , '' , 1) [ RunTime:0.006180s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 3 [ RunTime:0.006204s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '2' , 0 , '' , 3) [ RunTime:0.006159s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 2 [ RunTime:0.006187s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '2' , 0 , '' , 2) [ RunTime:0.006160s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 4 [ RunTime:0.006186s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '2' , 0 , '' , 4) [ RunTime:0.006170s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 5 [ RunTime:0.006184s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '2' , 0 , '' , 5) [ RunTime:0.006150s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 6 [ RunTime:0.006193s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '2' , 0 , '' , 6) [ RunTime:0.006162s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 7 [ RunTime:0.006199s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '2' , 0 , '' , 7) [ RunTime:0.006154s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 8 [ RunTime:0.006182s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '2' , 0 , '' , 8) [ RunTime:0.006158s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 9 [ RunTime:0.006174s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '2' , 0 , '' , 9) [ RunTime:0.006185s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 10 [ RunTime:0.006183s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '2' , 0 , '' , 10) [ RunTime:0.006114s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 11 [ RunTime:0.006213s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '2' , 0 , '' , 11) [ RunTime:0.006147s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `achievement` WHERE  `uid` = 33  AND `c_id` = 12 [ RunTime:0.006137s ]
+[ sql ] [ SQL ] INSERT INTO `achievement` (`uid` , `status` , `create_time` , `sign` , `total_score` , `score_detail` , `c_id`) VALUES (33 , 1 , 1584064479 , '2' , 0 , '' , 12) [ RunTime:0.006108s ]
+---------------------------------------------------------------
+[2020-03-13T09:56:07+08:00] 125.120.44.170 POST pingshen.hbhb.vip/api/users/wxlogin
+[运行时间：0.162812s] [吞吐率：6.14req/s] [内存消耗：3,848.66kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; YAL-AL00 Build/HUAWEIYAL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.186 Mobile Safari/537.36 MicroMessenger/7.0.12.1620(0x27000C36) Process/appbrand2 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021TXXwa0OGDYA11mgxa00uYwa0TXXwS',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ error ] [8192]Non-static method app\api\model\Token::create_unique() should not be called statically[/www/wwwroot/pingshen/application/api/model/Token.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009168s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007485s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5eZ37vXTqGXnXIAubLLbDwE' LIMIT 1 [ RunTime:0.006067s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007161s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.006104s ]
+---------------------------------------------------------------
+[2020-03-13T10:30:36+08:00] 125.120.44.170 POST pingshen.hbhb.vip/api/users/wxlogin
+[运行时间：0.172942s] [吞吐率：5.78req/s] [内存消耗：3,848.66kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; YAL-AL00 Build/HUAWEIYAL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.186 Mobile Safari/537.36 MicroMessenger/7.0.12.1620(0x27000C36) Process/appbrand0 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0214RChe037new15Z3je0IFzhe04RCh6',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ error ] [8]未定义数组索引: errcode[/www/wwwroot/pingshen/application/api/controller/Users.php:28]
+[ error ] [8192]Non-static method app\api\model\Token::create_unique() should not be called statically[/www/wwwroot/pingshen/application/api/model/Token.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008965s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007614s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `openid` = 'oqBTY5eZ37vXTqGXnXIAubLLbDwE' LIMIT 1 [ RunTime:0.006069s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007400s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.006046s ]
+---------------------------------------------------------------
+[2020-03-13T10:30:36+08:00] 125.120.44.170 POST pingshen.hbhb.vip/api/department/departList
+[运行时间：0.059009s] [吞吐率：16.95req/s] [内存消耗：3,414.01kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; YAL-AL00 Build/HUAWEIYAL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.186 Mobile Safari/537.36 MicroMessenger/7.0.12.1620(0x27000C36) Process/appbrand0 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'content-length' => '52',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a8f520ae94a15f95ddeb49a51bbec821c3f48d24',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009348s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.007963s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `department` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.006333s ]
+[ sql ] [ SQL ] SELECT `id`,`class_name` FROM `department` ORDER BY `sort` DESC,`id` ASC LIMIT 0,12 [ RunTime:0.006281s ]
+---------------------------------------------------------------
+[2020-03-13T10:30:36+08:00] 125.120.44.170 POST pingshen.hbhb.vip/api/standard/standList
+[运行时间：0.103721s] [吞吐率：9.64req/s] [内存消耗：3,858.75kb] [文件加载：92]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wx700e406bf204d191/1/page-frame.html',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; YAL-AL00 Build/HUAWEIYAL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.186 Mobile Safari/537.36 MicroMessenger/7.0.12.1620(0x27000C36) Process/appbrand0 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'content-length' => '52',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'a8f520ae94a15f95ddeb49a51bbec821c3f48d24',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: openid[/www/wwwroot/pingshen/application/api/controller/Base.php:33]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009105s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007889s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.006309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007444s ]
+[ sql ] [ SQL ] SELECT * FROM `weixin_user` WHERE  `userid` = 33 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.006087s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `standard` [ RunTime:0.007275s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `standard` [ RunTime:0.005953s ]
+[ sql ] [ SQL ] SELECT `stand_name`,`stand_text`,`mark` FROM `standard` LIMIT 0,12 [ RunTime:0.005970s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `achievement` [ RunTime:0.007398s ]
+[ sql ] [ SQL ] SELECT `score_detail`,`total_score`,`c_id` FROM `achievement` WHERE  `uid` = 33  AND `status` = 1 [ RunTime:0.006072s ]
+---------------------------------------------------------------
+[2020-03-13T10:49:19+08:00] 47.92.138.160 GET pingshen.hbhb.vip/
+[运行时间：0.021896s] [吞吐率：45.67req/s] [内存消耗：2,225.12kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-03-13T10:49:19+08:00] 47.92.138.160 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.022105s] [吞吐率：45.24req/s] [内存消耗：2,210.23kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-03-13T10:49:21+08:00] 47.92.138.160 GET pingshen.hbhb.vip/admin/index/index.html
+[运行时间：0.021638s] [吞吐率：46.22req/s] [内存消耗：2,225.32kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-03-13T10:49:21+08:00] 47.92.138.160 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.022322s] [吞吐率：44.80req/s] [内存消耗：2,210.23kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-03-13T18:37:49+08:00] 47.101.198.80 GET pingshen.hbhb.vip/
+[运行时间：0.021378s] [吞吐率：46.78req/s] [内存消耗：2,225.12kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-03-13T18:37:49+08:00] 47.101.198.80 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.020870s] [吞吐率：47.92req/s] [内存消耗：2,210.23kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-03-13T18:37:50+08:00] 47.101.198.80 GET pingshen.hbhb.vip/admin/index/index.html
+[运行时间：0.021370s] [吞吐率：46.79req/s] [内存消耗：2,225.32kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-03-13T18:37:50+08:00] 47.101.198.80 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.021259s] [吞吐率：47.04req/s] [内存消耗：2,210.23kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]

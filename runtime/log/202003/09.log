@@ -1,0 +1,809 @@
+---------------------------------------------------------------
+[2020-03-09T09:36:36+08:00] 183.199.125.210 GET pingshen.hbhb.vip/admin/index/index.html
+[运行时间：0.022224s] [吞吐率：45.00req/s] [内存消耗：2,226.79kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-03-09T09:36:42+08:00] 183.199.125.210 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.021688s] [吞吐率：46.11req/s] [内存消耗：2,211.74kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-03-09T10:41:49+08:00] 101.132.159.74 GET pingshen.hbhb.vip/
+[运行时间：0.022308s] [吞吐率：44.83req/s] [内存消耗：2,225.12kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-03-09T10:41:49+08:00] 101.132.159.74 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.022831s] [吞吐率：43.80req/s] [内存消耗：2,210.23kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-03-09T10:41:51+08:00] 101.132.159.74 GET pingshen.hbhb.vip/admin/index/index.html
+[运行时间：0.025138s] [吞吐率：39.78req/s] [内存消耗：2,225.32kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-03-09T10:41:51+08:00] 101.132.159.74 GET pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.023581s] [吞吐率：42.41req/s] [内存消耗：2,210.23kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'pingshen.hbhb.vip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [8]未定义变量: system[/www/wwwroot/pingshen/runtime/temp/b8b184884121afc82a66e9b20efb8822.php:37]
+---------------------------------------------------------------
+[2020-03-09T15:31:57+08:00] 183.199.125.210 POST pingshen.hbhb.vip/admin/login/index.html
+[运行时间：0.053453s] [吞吐率：18.71req/s] [内存消耗：3,350.16kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'accept' => '*/*',
+  'content-length' => '32',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin123',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009452s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.007826s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.006315s ]
+---------------------------------------------------------------
+[2020-03-09T15:31:59+08:00] 183.199.125.210 GET pingshen.hbhb.vip/admin/index/index.html
+[运行时间：0.054688s] [吞吐率：18.29req/s] [内存消耗：3,141.30kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/index/index.html [ array (
+  0 => 'menus',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009170s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.007462s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` WHERE  ( menustatus=1 ) ORDER BY `sort` [ RunTime:0.006234s ]
+---------------------------------------------------------------
+[2020-03-09T15:31:59+08:00] 183.199.125.210 GET pingshen.hbhb.vip/uploads/20180625/f266169c2956429d9aaea6cf6f1e51cb.jpg
+[运行时间：0.016329s] [吞吐率：61.24req/s] [内存消耗：1,661.92kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2020-03-09T15:31:59+08:00] 183.199.125.210 GET pingshen.hbhb.vip/admin/index/main.html
+[运行时间：0.044250s] [吞吐率：22.60req/s] [内存消耗：3,098.39kb] [文件加载：84]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/index/main.html [ array (
+  0 => 'config',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009097s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.005995s ]
+[ error ] [8]未定义数组索引: HTTP_CLIENT_IP[/www/wwwroot/pingshen/application/common.php:227]
+[ error ] [8]未定义数组索引: HTTP_X_FORWARDED_FOR[/www/wwwroot/pingshen/application/common.php:229]
+---------------------------------------------------------------
+[2020-03-09T15:32:12+08:00] 183.199.125.210 GET pingshen.hbhb.vip/admin/achievement/acflist.html
+[运行时间：0.025965s] [吞吐率：38.51req/s] [内存消耗：2,238.60kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/achievement/acfList.html [ array (
+) ]
+---------------------------------------------------------------
+[2020-03-09T15:32:13+08:00] 183.199.125.210 POST pingshen.hbhb.vip/admin/achievement/acflist.html
+[运行时间：0.865015s] [吞吐率：1.16req/s] [内存消耗：3,181.29kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/achievement/acflist.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009119s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `achievement` [ RunTime:0.007541s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `department` `d` ON `d`.`id`=`a`.`c_id` GROUP BY `sign`,`c_id` [ RunTime:0.007046s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '1'  AND `c_id` = 1  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.007289s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005957s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005928s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005925s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005875s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '1'  AND `c_id` = 2  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006284s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005949s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005892s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005896s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005884s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '1'  AND `c_id` = 3  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006216s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005911s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005853s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005913s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005872s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '1'  AND `c_id` = 4  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006271s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005845s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005900s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005884s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005909s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '1'  AND `c_id` = 5  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006226s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005880s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005952s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005942s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005912s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '1'  AND `c_id` = 6  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006199s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005933s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005849s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005874s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005918s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '1'  AND `c_id` = 7  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006218s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005900s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005917s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005943s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005911s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '1'  AND `c_id` = 8  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006234s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005947s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005889s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005890s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005894s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '1'  AND `c_id` = 9  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006195s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005901s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005908s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005933s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005920s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '1'  AND `c_id` = 10  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006233s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005906s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005911s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005908s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005928s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '1'  AND `c_id` = 11  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006243s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005889s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005897s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005901s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005891s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '1'  AND `c_id` = 12  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006200s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005921s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005929s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005935s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005919s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '2'  AND `c_id` = 1  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006259s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005918s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005913s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005911s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005904s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '2'  AND `c_id` = 2  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006179s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005913s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005904s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005947s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005918s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '2'  AND `c_id` = 3  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006236s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005916s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005902s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005939s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005903s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '2'  AND `c_id` = 4  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006246s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005870s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005915s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005938s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005925s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '2'  AND `c_id` = 5  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006240s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005923s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005929s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005907s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005947s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '2'  AND `c_id` = 6  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006233s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005915s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005905s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005925s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005922s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '2'  AND `c_id` = 7  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006257s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005888s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005951s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005919s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005921s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '2'  AND `c_id` = 8  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006213s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.006019s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005894s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005904s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005955s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '2'  AND `c_id` = 9  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006275s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005889s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005904s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005913s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005932s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '2'  AND `c_id` = 10  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006241s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005908s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005866s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005899s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005907s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '2'  AND `c_id` = 11  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006261s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005921s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005947s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005935s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005940s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '2'  AND `c_id` = 12  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006300s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Lesley%' [ RunTime:0.005915s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%Takers%' [ RunTime:0.005937s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%盛华%' [ RunTime:0.005895s ]
+[ sql ] [ SQL ] SELECT `id` FROM `department` WHERE  `c_user` LIKE '%屠宇飞%' [ RunTime:0.005947s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '3'  AND `c_id` = 1  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006226s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '3'  AND `c_id` = 2  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006154s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '3'  AND `c_id` = 3  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006199s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '3'  AND `c_id` = 4  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006191s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '3'  AND `c_id` = 5  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006126s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '3'  AND `c_id` = 6  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006133s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '3'  AND `c_id` = 7  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006159s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '3'  AND `c_id` = 8  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006140s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '3'  AND `c_id` = 9  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006160s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '3'  AND `c_id` = 10  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006110s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` WHERE  `sign` = '3'  AND `c_id` = 11  AND `uid` IN (2,4,6,16,17) [ RunTime:0.006194s ]
+---------------------------------------------------------------
+[2020-03-09T18:12:33+08:00] 183.199.125.210 GET pingshen.hbhb.vip/admin/achievement/aclist.html
+[运行时间：0.022814s] [吞吐率：43.83req/s] [内存消耗：2,239.63kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/achievement/acList.html [ array (
+) ]
+---------------------------------------------------------------
+[2020-03-09T18:12:33+08:00] 183.199.125.210 POST pingshen.hbhb.vip/admin/achievement/aclist.html
+[运行时间：0.128993s] [吞吐率：7.75req/s] [内存消耗：3,079.76kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/achievement/aclist.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009184s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `achievement` [ RunTime:0.007567s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` GROUP BY `uid`,`sign` [ RunTime:0.007904s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007167s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.007884s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.006014s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.005994s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.005990s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.006037s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.005995s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.006003s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.005995s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.005990s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.006007s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.005977s ]
+---------------------------------------------------------------
+[2020-03-09T18:12:41+08:00] 183.199.125.210 GET pingshen.hbhb.vip/admin/standard/stlist.html
+[运行时间：0.022718s] [吞吐率：44.02req/s] [内存消耗：2,220.55kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/standard/stList.html [ array (
+) ]
+---------------------------------------------------------------
+[2020-03-09T18:12:41+08:00] 183.199.125.210 POST pingshen.hbhb.vip/admin/standard/stlist.html
+[运行时间：0.051774s] [吞吐率：19.31req/s] [内存消耗：3,049.64kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/standard/stlist.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009678s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `standard` [ RunTime:0.007769s ]
+[ sql ] [ SQL ] SELECT * FROM `standard` [ RunTime:0.006577s ]
+---------------------------------------------------------------
+[2020-03-09T18:12:49+08:00] 183.199.125.210 POST pingshen.hbhb.vip/admin/achievement/aclist.html
+[运行时间：0.126925s] [吞吐率：7.88req/s] [内存消耗：3,079.76kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/achievement/aclist.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009228s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `achievement` [ RunTime:0.007462s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` GROUP BY `uid`,`sign` [ RunTime:0.007737s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007280s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.006075s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.006066s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.006060s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.006046s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.006038s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.006066s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.006060s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.006096s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.006072s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.006054s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.006066s ]
+---------------------------------------------------------------
+[2020-03-09T18:12:51+08:00] 183.199.125.210 POST pingshen.hbhb.vip/admin/achievement/aclist.html
+[运行时间：0.128714s] [吞吐率：7.77req/s] [内存消耗：3,079.76kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/achievement/aclist.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009393s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `achievement` [ RunTime:0.007568s ]
+[ sql ] [ SQL ] SELECT * FROM `achievement` `a` LEFT JOIN `users` `u` ON `u`.`id`=`a`.`uid` GROUP BY `uid`,`sign` [ RunTime:0.007889s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007377s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.006181s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.006206s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.006182s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.006142s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.006147s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.006122s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.006118s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.006086s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.006070s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.006093s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `users` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.006101s ]
+---------------------------------------------------------------
+[2020-03-09T18:12:54+08:00] 183.199.125.210 GET pingshen.hbhb.vip/admin/auth/adminlist.html
+[运行时间：0.023903s] [吞吐率：41.84req/s] [内存消耗：2,291.40kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/auth/admin_list.html [ array (
+) ]
+---------------------------------------------------------------
+[2020-03-09T18:12:54+08:00] 183.199.125.210 POST pingshen.hbhb.vip/admin/auth/adminlist.html
+[运行时间：0.052391s] [吞吐率：19.09req/s] [内存消耗：3,119.49kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/auth/adminlist.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009265s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.007662s ]
+[ sql ] [ SQL ] SELECT `a`.*,`ag`.`title` FROM `admin` `a` LEFT JOIN `auth_group` `ag` ON `a`.`group_id`=`ag`.`group_id` [ RunTime:0.006219s ]
+---------------------------------------------------------------
+[2020-03-09T18:12:56+08:00] 183.199.125.210 GET pingshen.hbhb.vip/admin/auth/adminrule.html
+[运行时间：0.024209s] [吞吐率：41.31req/s] [内存消耗：2,294.09kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/auth/admin_rule.html [ array (
+) ]
+---------------------------------------------------------------
+[2020-03-09T18:12:56+08:00] 183.199.125.210 POST pingshen.hbhb.vip/admin/auth/adminrule.html
+[运行时间：0.050294s] [吞吐率：19.88req/s] [内存消耗：3,129.80kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/auth/adminrule.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008378s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.007022s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` ORDER BY `pid` ASC,`sort` ASC [ RunTime:0.005672s ]
+---------------------------------------------------------------
+[2020-03-09T18:13:45+08:00] 183.199.125.210 GET pingshen.hbhb.vip/admin/department/delist.html
+[运行时间：0.021395s] [吞吐率：46.74req/s] [内存消耗：2,220.42kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/department/deList.html [ array (
+) ]
+---------------------------------------------------------------
+[2020-03-09T18:13:45+08:00] 183.199.125.210 POST pingshen.hbhb.vip/admin/department/delist.html
+[运行时间：0.050363s] [吞吐率：19.86req/s] [内存消耗：3,049.89kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/department/delist.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009170s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.007546s ]
+[ sql ] [ SQL ] SELECT * FROM `department` [ RunTime:0.006047s ]
+---------------------------------------------------------------
+[2020-03-09T18:13:48+08:00] 183.199.125.210 GET pingshen.hbhb.vip/admin/users/userlist.html
+[运行时间：0.022280s] [吞吐率：44.88req/s] [内存消耗：2,223.94kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/pingshen/application/admin/view/users/user_list.html [ array (
+) ]
+---------------------------------------------------------------
+[2020-03-09T18:13:48+08:00] 183.199.125.210 POST pingshen.hbhb.vip/admin/users/userlist.html
+[运行时间：0.051485s] [吞吐率：19.42req/s] [内存消耗：3,111.99kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; PHPSESSID=20reqccdsil1fffcuv4gi4lja4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pingshen.hbhb.vip/admin/users/userlist.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pingshen.hbhb.vip',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pingshen.hbhb.vip',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009085s ] mysql:host=47.97.169.58;port=3306;dbname=pingshen;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.007674s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  ( `nickname` LIKE '%%' OR `email` LIKE '%%' OR `mobile` LIKE '%%' ) [ RunTime:0.006259s ]

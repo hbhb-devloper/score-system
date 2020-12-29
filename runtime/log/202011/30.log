@@ -1,0 +1,17 @@
+---------------------------------------------------------------
+[2020-11-30T02:51:53+08:00] 104.236.5.93 HEAD pingshen.hbhb.vip/
+[运行时间：0.139629s] [吞吐率：7.16req/s] [内存消耗：2,224.38kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/pingshen/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/pingshen/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; Netcraft Web Server Survey)',
+  'referer' => 'https://www.netcraft.com/survey/',
+  'host' => 'pingshen.hbhb.vip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
