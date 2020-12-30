@@ -23,21 +23,16 @@ return [
 
 
     // 服务器地址
-    'hostname'        => '47.97.169.58',
-//    'hostname'        => '127.0.0.1',
-//    // 数据库名
-    'database'        => 'pingshen',
-//    'database'        => '评审',
-//    // 用户名
-    'username'        => 'pingshen',
-//    'username'        => 'root',
-//    // 密码
-    'password'        => 'HYRSzCLTS4WKFJd2',
-//    'password'        => 'root',
-
-
+    'hostname'        => '47.96.83.55',
     // 端口
     'hostport'        => '3306',
+    // 数据库名
+    'database'        => 'score',
+    // 用户名
+    'username'        => 'zhcw',
+    // 密码
+    'password'        => 'zhcw@2020',
+
     // 连接dsn
     'dsn'             => '',
     // 数据库连接参数
