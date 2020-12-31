@@ -4203,30 +4203,6 @@ INSERT INTO `district` VALUES (820200, '离岛', 2, 820000, 'L');
 INSERT INTO `district` VALUES (820201, '离岛', 3, 820200, 'L');
 
 -- ----------------------------
--- Table structure for pay_log
--- ----------------------------
-DROP TABLE IF EXISTS `pay_log`;
-CREATE TABLE `pay_log`  (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `userid` int(11) NULL DEFAULT 0,
-  `amount` decimal(10, 2) NULL DEFAULT NULL,
-  `type` smallint(1) NULL DEFAULT 1 COMMENT '类别：1订单支付，2余额充值',
-  `orderid` int(11) NULL DEFAULT NULL,
-  `out_trade_no` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
-  `transaction_id` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
-  `is_paid` tinyint(1) NULL DEFAULT 0,
-  `out_refund_no` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
-  `refund_fee` decimal(10, 2) NULL DEFAULT NULL,
-  `refund_desc` varchar(200) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
-  `refund_status` smallint(1) NULL DEFAULT 0,
-  PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
-
--- ----------------------------
--- Records of pay_log
--- ----------------------------
-
--- ----------------------------
 -- Table structure for standard
 -- ----------------------------
 DROP TABLE IF EXISTS `standard`;

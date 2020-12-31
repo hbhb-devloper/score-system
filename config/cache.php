@@ -29,14 +29,14 @@ return [
         // 驱动方式
         'type'   => 'File',
         // 缓存保存目录
-        'path'   => '../runtime/file',
+        'path'   => './runtime/file',
     ],
     // 文件缓存
     'file'   =>  [
         // 驱动方式
         'type'   => 'File',
         // 缓存保存目录
-        'path'   => '../runtime/file',
+        'path'   => './runtime/file',
         // 缓存前缀
         'prefix' => '',
         // 缓存有效期 0表示永久缓存
