@@ -16,8 +16,8 @@
 
 return [
     'type' => 'Redis',
-    'host' => '127.0.0.1',
+    'host' => 'redis',
     'port' => '6379',
-    'password' => '',
+    'password' => 'cw_2020',
     'timeout' => 3600
 ];
