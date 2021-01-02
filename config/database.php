@@ -23,7 +23,7 @@ return [
 
 
     // 服务器地址
-    'hostname'        => '192.168.0.39',
+    'hostname'        => 'mariadb',
     // 端口
     'hostport'        => '3306',
     // 数据库名
