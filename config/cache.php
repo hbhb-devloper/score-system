@@ -51,7 +51,7 @@ return [
         'port' => '6379',
         'timeout' => 3600*24,
 //        'expire' => 0,
-        'password' => ''
+        'password' => 'cw_2020'
     ],
 
 ];
