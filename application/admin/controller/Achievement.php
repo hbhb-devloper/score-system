@@ -14,7 +14,7 @@ class Achievement extends Common
     {
         $data = input();
         if(Request::isAjax()){
-            $sql = Db::table('achievement')->alias('a')->leftJoin('users u','u.id=a.uid');
+            $sql = Db::table('achievement')->alias('a')->leftJoin('users u','u.id=a.uid')->field('a.*,u.nickname');
             if (isset($data['nickname'])) {
                 $sql->where('u.nickname','like',"%".$data['nickname']."%");
             }
